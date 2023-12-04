@@ -67,7 +67,9 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 iframe { 
@@ -81,6 +83,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -121,4 +126,12 @@ li {
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+.figcaption {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: center;
+    font-size: 60px;
+    color: white;
+
 }
